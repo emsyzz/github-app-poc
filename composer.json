@@ -1,0 +1,22 @@
+{
+    "name": "emsyzz/github-app-poc",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Emils Jansons",
+            "email": "emils@lokalise.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "5.3.0",
+        "m4tthumphrey/php-gitlab-api": "^11.4",
+        "guzzlehttp/guzzle": "^7.2",
+        "http-interop/http-factory-guzzle": "^1.0",
+        "firebase/php-jwt": "^5.3"
+    },
+    "autoload": {
+        "classmap": [
+            "lib/"
+        ]
+    }
+}

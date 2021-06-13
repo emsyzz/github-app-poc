@@ -1,0 +1,6 @@
+.env
+test.php
+composer.phar
+vendor/
+.idea/
+secret/
